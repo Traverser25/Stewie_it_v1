@@ -33,7 +33,7 @@ This project automates assembling these videos by combining user-provided script
 
 ### 3. Image & Asset Collection  
 - Character images (`stewie.png`, `peter.png`) are stored locally.  
-- Gameplay footage videos are pre-stored.  
+- Gameplay footage videos are pre-stored, you can add any footage in reel size video in video assests folder 
 - DuckDuckGo scraping is used to find additional relevant images if needed.
 
 ### 4. Video Assembly  
