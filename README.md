@@ -26,6 +26,15 @@ This project automates assembling these videos by combining user-provided script
 - The bot expects a back-and-forth conversation format alternating between Stewie and Peter lines.  
 - Users can optionally generate or fetch scripts using ChatGPT externally and paste them in.
 
+### 🧠 Telegram Interface
+
+Here’s how you interact with the bot via Telegram:
+
+| ![Telegram Screen 1](image_assests/telegram_screenshot2.png) | ![Telegram Screen 2](image_assests/telegram_screenshot1.png) |
+|:--------------------------------------------------------:|:--------------------------------------------------------:|
+| Telegram: Send content or prompts                        | Telegram: Get auto-generated video file                  |
+
+
 ### 2. Voice Generation  
 - Voices are scraped from [Parrot AI](https://parrot.ai/) by spinning up an AWS EC2 instance that:  
   - Launches, scrapes voice clips for the dialogue, then shuts down automatically.  
