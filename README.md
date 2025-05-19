@@ -102,7 +102,24 @@ Below is an example of how the script content is structured to generate the vide
 ]
 
 
+## System Requirements
 
+Before running the script, make sure the following system-level dependencies are installed:
+
+### 🧰 Required Packages
+
+- **FFmpeg**: Required by `moviepy` and `pydub` for audio/video processing.
+- **ImageMagick**: Used for image manipulation and required for certain operations by `moviepy` or `imageio`.
+- **imageio**: Python library used for reading/writing images, often works with `moviepy`.
+
+---
+
+### 📦 Install on Ubuntu/Debian
+
+```bash
+sudo apt update
+sudo apt install ffmpeg imagemagick
+pip install imageio
 
 
 
