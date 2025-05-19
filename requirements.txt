@@ -1,0 +1,4 @@
+pydub==0.25.1
+moviepy==1.0.3
+selenium==4.24.0
+duckduckgo-search==8.0.1
