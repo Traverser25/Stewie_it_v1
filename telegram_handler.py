@@ -26,7 +26,7 @@ class TelegramBot:
             self.log_error(f"Failed to send message: {e}")
 
     def send_video_file(self, video_path, caption=None):
-        """Send a video file as a document to Telegram."""
+        """Send a video file as a document to Telegram.Please Note that  you  can  only  send  file upto 50 MB as per telegram bot rules"""
         try:
             with open(video_path, 'rb') as video_file:
                 files = {'document': video_file}
