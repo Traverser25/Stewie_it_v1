@@ -21,6 +21,11 @@ This project automates assembling these videos by combining user-provided script
 
 ## 🧠 How It Works
 
+
+## Architecture
+
+![Architecture Diagram](image_assests/aws_diagram.jpg)
+
 ### 1. Script Input via Telegram  
 - The user sends a coding topic or full dialogue script to the Telegram bot.  
 - The bot expects a back-and-forth conversation format alternating between Stewie and Peter lines.  
