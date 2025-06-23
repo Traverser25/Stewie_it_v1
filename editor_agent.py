@@ -13,7 +13,7 @@ import os
 import random
 
 from moviepy.config_defaults import IMAGEMAGICK_BINARY
-#IMAGEMAGICK_BINARY = r"/usr/bin/convert" cahnge this ti  your path 
+#IMAGEMAGICK_BINARY = r"/usr/bin/convert"   chnage this path to  your  imagemagick file path
 
 class DynamicVideoEditor:
     def __init__(self, video_path, output_path, dialogue_data):
