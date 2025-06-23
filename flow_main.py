@@ -86,6 +86,6 @@ if __name__ == "__main__":
     finally:
         time.sleep(60*3)
         print("shutting down the vm")
-        pass
+        #pass
         #here  shutdwon the  machine  
-        #Utils.stop_vm()  
+        Utils.stop_vm()  
