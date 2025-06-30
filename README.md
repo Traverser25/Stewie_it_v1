@@ -1,7 +1,6 @@
 # Stewie_it v1
 
-
-🎥 **Demo Reel:** [Watch on Instagram](https://www.instagram.com/stewie_codes_absurd/)
+## 🎥 **DEMO AUTO GENERATED VIDEO — [WATCH ON INSTAGRAM](https://www.instagram.com/stewie_codes_absurd/)**
 
 **Stewie_it v1** is an experimental automation project inspired by a viral Instagram trend where Stewie and Peter Griffin humorously explain coding topics over gameplay footage (recent trend)
 
