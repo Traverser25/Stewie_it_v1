@@ -133,3 +133,16 @@ pip install imageio
 - Run it as a background service or use process managers like `systemd`, `pm2`, or `screen`/`tmux` to keep it alive.  
 - This script keeps the Telegram bot live and handles the entire workflow end-to-end.
 
+
+
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=Traverser25%2FStewie_it_v1&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Traverser25/Stewie_it_v1&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Traverser25/Stewie_it_v1&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Traverser25/Stewie_it_v1&type=date&legend=top-left" />
+ </picture>
+</a>
+
