@@ -106,6 +106,36 @@ Below is an example of how the script content is structured to generate the vide
 ]
 
 
+## 📄 Sample Content Format
+
+Below is an example of how the script content is structured to generate the videos. The `audio` field paths are managed internally and are omitted here for privacy.
+
+```json
+[
+  {
+    "audio": "[path to Peter's audio clip]",
+    "image": "peter.png",
+    "dialogue": "Peter: Hello Indian dev! You’ve seen reels like this, right?",
+    "character": "peter",
+    "image_search": "indian developer"
+  },
+  {
+    "audio": "[path to Stewie's audio clip]",
+    "image": "stewie.png",
+    "dialogue": "Stewie: Yeah! Those viral AI voice skits? Everyone’s reposting this one.",
+    "character": "stewie",
+    "image_search": "viral ai reel"
+  },
+  {
+    "audio": "[path to Peter's audio clip]",
+    "image": "peter.png",
+    "dialogue": "Peter: I built the automation for this. No paid AI, all open source!",
+    "character": "peter",
+    "image_search": "automation setup"
+  }
+]
+```
+
 ## System Requirements
 
 Before running the script, make sure the following system-level dependencies are installed:
@@ -124,25 +154,29 @@ Before running the script, make sure the following system-level dependencies are
 sudo apt update
 sudo apt install ffmpeg imagemagick
 pip install imageio
-
-
+```
 
 ## ⚙️ Setup & Running
 
-- The main automation service runs via `flow_main.py`.  
-- Run it as a background service or use process managers like `systemd`, `pm2`, or `screen`/`tmux` to keep it alive.  
+- The main automation service runs via `flow_main.py`.
+- Run it as a background service or use process managers like `systemd`, `pm2`, or `screen`/`tmux` to keep it alive.
 - This script keeps the Telegram bot live and handles the entire workflow end-to-end.
-
-
-'''
 
 ## Star History
 
-<a href="https://www.star-history.com/?repos=Traverser25%2FStewie_it_v1&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Traverser25/Stewie_it_v1&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Traverser25/Stewie_it_v1&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Traverser25/Stewie_it_v1&type=date&legend=top-left" />
- </picture>
+<a href="https://www.star-history.com/?repos=Traverser25/Stewie_it_v1&type=date">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://api.star-history.com/chart?repos=Traverser25/Stewie_it_v1&type=date&theme=dark"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://api.star-history.com/chart?repos=Traverser25/Stewie_it_v1&type=date"
+    />
+    <img
+      alt="Star History Chart"
+      src="https://api.star-history.com/chart?repos=Traverser25/Stewie_it_v1&type=date"
+    />
+  </picture>
 </a>
-
